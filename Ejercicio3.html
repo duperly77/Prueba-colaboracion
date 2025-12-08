@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IN-N-OUT BURGER</title>
+    <link rel="stylesheet" href="assets/css/Ejercicio3.css">
+</head>
+<body>
+    <header>
+    <h1>IN-N-OUT BURGER</h1>
+    <h2>Calculadora de Compra</h2>
+</header>
+
+<main>
+    <section>
+        <label>Cantidad de hamburguesas:</label>
+        <input type="number" id="cantidad" placeholder="Ej: 2">
+
+        <label>Tipo de hamburguesa:</label>
+        <select id="tipoHamb">
+            <option value="sencilla">Sencilla</option>
+            <option value="doble">Doble</option>
+            <option value="triple">Triple</option>
+        </select>
+
+        <label>Tipo de pago:</label>
+        <select id="pago">
+            <option value="efectivo">Efectivo</option>
+            <option value="tarjeta">Tarjeta</option>
+        </select>
+
+        <button onclick="calcularTotal()">Calcular</button>
+
+        <div id="result" class="resultado"></div>
+    </section>
+</main>
+
+<script src="assets/js/Ejercicio3.js"></script>
+</body>
+</html>
