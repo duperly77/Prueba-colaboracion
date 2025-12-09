@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panelera</title>
+    <link rel="stylesheet" href="assets/css/Ejercicios5.css">
+</head>
+<body>
+    <main>
+    <h1>Ganancia Panelera</h1>
+
+    <label for="tipo">Tipo de panela (P1 o P2):</label>
+    <select id="tipo">
+        <option value="P1">P1</option>
+        <option value="P2">P2</option>
+    </select>
+
+    <label for="tamano">Tamaño de la panela (1 o 2):</label>
+    <select id="tamano">
+        <option value="1">1</option>
+        <option value="2">2</option>
+    </select>
+
+    <label for="precio">Precio inicial por kilo:</label>
+    <input type="number" id="precio" placeholder="Ej: 4500">
+
+    <label for="kilos">Kilos de producción:</label>
+    <input type="number" id="kilos" placeholder="Ej: 8">
+
+    <button onclick="calcularGanancia()">Calcular ganancia</button>
+
+    <div id="gana"></div>
+</main>
+<script src="assets/js/Ejercicio5.js"></script>
+</body>
+</html>
